@@ -1,0 +1,163 @@
+/* Page width */
+.container-12 {
+  width: 80vh !important;
+  max-width: 100vh !important;
+}
+
+/* Hide everything at the top and bottom */
+#page-new-title, #zone-topper-wrapper, #zone-menu-wrapper, #breadcrumb, .site-name-slogan, #block-search-form, footer { display: none; }
+
+/* Pics and grid */
+.view-id-people .views-field-picture { float: none !important; }
+div.region-sidebar-first-inner { position: fixed; }
+td {
+  border-bottom: 0 !important;
+}
+#region-sidebar-first { width: 20%; }
+.container-12 .grid-9.push-3 {
+  width: 79% !important;
+}
+tr { height: 330px;}
+
+/* Fields */
+.name_title a { color: white !important; }
+.views-field-name { margin-top: -65px; }
+body.page-touchscreen-our-staff-name .views-field-name { margin-top: 0px; }
+.name_title {
+  color: white !important;
+  text-shadow: 2px 2px 4px #000000;
+  width: 230px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+/* Disable external links */
+a.ext {
+  pointer-events: none;
+  cursor: default;
+}
+span.ext {
+  display: none;
+}
+
+/* Buttons */
+.view-id-people .views-exposed-widget {
+  width: 100%;
+  max-width: 100%;
+}
+.form-item a {
+  background: #1E4476;
+  border-radius: 3px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Open Sans",sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 1.5em;
+  font-weight: 600;
+  line-height: 1.3em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  position: relative;
+  text-shadow: none;
+}
+.views-exposed-form .form-item, .views-exposed-form .form-submit {
+  margin-top: 25px;
+  float: none;
+}
+.views-widget { margin-bottom: 30px; }
+.form-item a.active { background-color: red; }
+
+/* Reset button */
+#edit-reset {
+  background: #fff;
+  color: #1E4476;
+  margin-top: -13px;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Open Sans",sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 1.5em;
+  font-weight: 600;
+  line-height: 1.3em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  position: relative;
+  text-shadow: none;
+}
+.views-exposed-form .views-exposed-widget { float: none; }
+
+/* Accessibility button */
+div.fixed_bottom button {
+  position: fixed;
+  bottom: 10px;
+}
+
+/* A-Z Pager */
+.view-header { float: left !important; }
+
+
+/* People Pages */
+body.page-touchscreen-our-staff-name .views-field-picture img {
+  float: left;
+  padding-right: 20px;
+}
+
+/* Back button */
+.back-button button {
+  background: #fff;
+  color: #1E4476;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Open Sans",sans-serif;
+  font-size: 1.8rem;
+  margin-bottom: 1.5em;
+  font-weight: 600;
+  line-height: 1.3em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  position: relative;
+  text-shadow: none;
+}
+
+/* Touchscreen menu */
+div#region-content.region.grid-9.region-content, div#region-content.region.grid-6.region-content {
+  background-color: transparent; !important;
+  border-top: 0px;
+}
+body.context-touchscreen.node-type-page {
+  background: url("/sites/default/files/images/nave_blue.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.view-calendar, .view-around-ctl, .alpha-resize-indicator { display: none; }
+div.center {
+  text-align: center;
+  width: 80vh;
+}
+button.touch {
+  margin: 40vh 30px;
+  background: #fff;
+  color: #1E4476;
+  border-radius: 3px;
+  cursor: pointer;
+  text-align: center;
+  font-family: "Open Sans",sans-serif;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 1.3em;
+  padding: 0.5em 1em;
+  text-decoration: none;
+  position: relative;
+  text-shadow: none;
+}
+body.context-touchscreen.container-12 {
+  width: 80vh !important;
+}
+
+/* Accessibility button */
+div#zone-branding-wrapper { background-color: #F0F0F4 }
